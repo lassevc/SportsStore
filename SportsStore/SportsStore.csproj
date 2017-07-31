@@ -96,6 +96,7 @@
     <Content Include="Pages\Admin\Products.aspx" />
     <Content Include="Pages\CartView.aspx" />
     <Content Include="Pages\Checkout.aspx" />
+    <Content Include="Pages\Error.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Store.Master" />
     <Content Include="Pages\Admin\Admin.Master" />
@@ -183,6 +184,13 @@
     </Compile>
     <Compile Include="Pages\Checkout.aspx.designer.cs">
       <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Helpers\SessionHelper.cs" />
     <Compile Include="Pages\Listing.aspx.cs">
